@@ -19,10 +19,10 @@ import { CommonModule } from '@angular/common';
 export const APP_ROUTES: Routes = [
   {
     path: '',
-    redirectTo: 'drag'
+    redirectTo: 'dragItem'
   },
   {
-    path: 'drag',
+    path: 'dragItem',
     component: TestDragDropComponent
   }
 ];

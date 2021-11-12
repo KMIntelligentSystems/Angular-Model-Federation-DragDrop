@@ -49,7 +49,7 @@ module.exports = {
           "@angular/router": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
 
           ...sharedMappings.getDescriptors()
-        })
+        }),
         
     }),
     sharedMappings.getPlugin()
